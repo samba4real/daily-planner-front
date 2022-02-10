@@ -10,7 +10,7 @@ export class WebRequestService {
 
   constructor( private http: HttpClient ) { 
     // this.ROOT_URL = 'http://localhost:3000';
-    this.ROOT_URL = 'https://dailly-planner.herokuapp.com/';
+    this.ROOT_URL = 'https://dailly-planner.herokuapp.com';
   }
 
   get(url: string) {
